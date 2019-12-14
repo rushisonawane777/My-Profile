@@ -55,6 +55,7 @@ color: gray;
    color: black;
    width:35em; }
  
+
 .shadowbox {
    float: left;
  position: relative;
@@ -66,6 +67,7 @@ color: gray;
   background-image: linear-gradient(180deg, #fff, #ddd 40%, #ccc); 
 }
 /* Create four equal columns that floats next to each other */
+
 
 
 /* Clear floats after the columns */
