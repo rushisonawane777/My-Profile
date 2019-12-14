@@ -5,17 +5,6 @@ color:rgba(0,0,0,5);
 background: linear-gradient(to right,yellow,white);
 }
 
-/* Tablet Landscape */
-@media screen and (max-width: 1060px) {
-    .prof { width:67%; }
-    .shadowbox { width:30%; margin-left:3%;}  
-}
-
-/* Tabled Portrait */
-@media screen and (max-width: 768px) {
-    .prof { width:100%; }
-    .shadowbox { width:100%; margin:0; border:none; }
-}
 
 #cl{
 color: gray;
@@ -59,6 +48,7 @@ color: gray;
 }
 
 .prof {
+  
  position: relative;
   top: -190px;
   left:50px;
@@ -66,6 +56,7 @@ color: gray;
    width:35em; }
  
 .shadowbox {
+   float: left;
  position: relative;
   top: 40px;
   left:700px;
@@ -74,4 +65,42 @@ color: gray;
   border-radius: 15%;
   box-shadow: 8px 8px 5px #444;
   background-image: linear-gradient(180deg, #fff, #ddd 40%, #ccc); 
+}
+/* Create four equal columns that floats next to each other */
+
+
+/* Clear floats after the columns */
+.all:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+/* On screens that are 992px wide or less, go from four columns to two columns */
+@media screen and (max-width: 992px) {
+  .prof {
+    width: 50%;
+  }
+}
+
+/* On screens that are 600px wide or less, make the columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .prof {
+    width: 100%;
+  }
+}
+
+/* On screens that are 992px wide or less, go from four columns to two columns */
+@media screen and (max-width: 992px) {
+  .shadowbox {
+    width: 50%;
+  }
+}
+
+/* On screens that are 600px wide or less, make the columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .shadowbox {
+    width: 100%;
+  }
 }
