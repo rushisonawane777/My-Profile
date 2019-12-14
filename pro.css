@@ -61,7 +61,6 @@ color: gray;
   top: 40px;
   left:700px;
   width: 35em;
-  height: auto;
   border-radius: 15%;
   box-shadow: 8px 8px 5px #444;
   background-image: linear-gradient(180deg, #fff, #ddd 40%, #ccc); 
@@ -81,6 +80,7 @@ color: gray;
 @media screen and (max-width: 992px) {
   .prof {
     width: 50%;
+    
   }
 }
 
@@ -88,6 +88,7 @@ color: gray;
 @media screen and (max-width: 600px) {
   .prof {
     width: 100%;
+   
   }
 }
 
@@ -95,6 +96,7 @@ color: gray;
 @media screen and (max-width: 992px) {
   .shadowbox {
     width: 50%;
+  
   }
 }
 
@@ -102,5 +104,6 @@ color: gray;
 @media screen and (max-width: 600px) {
   .shadowbox {
     width: 100%;
+  
   }
 }
