@@ -2,7 +2,19 @@ body
 {
 font:"raleway",san-senif;
 color:rgba(0,0,0,5);
-background: linear-gradient(to right,white,yellow,pink);
+background: linear-gradient(to right,yellow,white);
+}
+
+/* Tablet Landscape */
+@media screen and (max-width: 1060px) {
+    .prof { width:67%; }
+    .shadowbox { width:30%; margin-left:3%;}  
+}
+
+/* Tabled Portrait */
+@media screen and (max-width: 768px) {
+    .prof { width:100%; }
+    .shadowbox { width:100%; margin:0; border:none; }
 }
 #cl{
 color: gray;
@@ -45,14 +57,14 @@ color: gray;
   border-radius: 35%;
 }
 
-#prof {
+.prof {
  position: relative;
   top: -190px;
   left:50px;
    color: black;
    width:35em; }
  
-#shadowbox {
+.shadowbox {
  position: relative;
   top: 40px;
   left:700px;
