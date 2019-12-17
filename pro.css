@@ -1,13 +1,14 @@
 body
 {
-  height: 100%;
+
 font:"raleway",san-senif;
 color:rgba(0,0,0,5);
+ 
 
 }
   body #all {
     
-    background: linear-gradient(to right,yellow,white);
+   
     width: 100%;
     height: 100%;
     position: absolute;
