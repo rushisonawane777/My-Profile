@@ -17,6 +17,8 @@ color:rgba(0,0,0,5);
 
 #cl{
 color: gray;
+width: 20px;
+height: 10px;
 }
 .fa {
   padding: 20px;
@@ -57,68 +59,25 @@ color: gray;
 }
 
 .prof {
-  
- position: relative;
-  top: -190px;
-  left:50px;
+
+ position: absolute;
+
+  left:71px;
    color: black;
-   width:35em; }
+   width:35em; 
+   height: -20px;
+   }
  
 
 .shadowbox {
    float: left;
  position: relative;
   top: 40px;
-  left:700px;
+  left:670px;
   z-index: -1;
-  width: 35em;
+  width: 30em;
   border-radius: 15%;
   box-shadow: 8px 8px 5px #444;
   background-image: linear-gradient(180deg, #fff, #ddd 40%, #ccc); 
 }
-/* Create four equal columns that floats next to each other */
-.shadowbox{
-  display: grid;
-  grid-template-columns: 1fr;
-}
 
-
-/* Clear floats after the columns */
-.all:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-
-/* On screens that are 992px wide or less, go from four columns to two columns */
-@media screen and (max-width: 992px) {
-  .prof {
-    width: 50%;
-    
-  }
-}
-
-/* On screens that are 600px wide or less, make the columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 600px) {
-  .prof {
-    width: 100%;
-   
-  }
-}
-
-/* On screens that are 992px wide or less, go from four columns to two columns */
-@media screen and (max-width: 992px) {
-  .shadowbox {
-    width: 50%;
-  
-  }
-}
-
-/* On screens that are 600px wide or less, make the columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 600px) {
-  .shadowbox {
-    width: 100%;
-  
-  }
-}
